@@ -40,6 +40,8 @@ class Main {
       System.out.println("A senha precisa de pelo menos uma letra minúscula.");
     } else if (special <= 0) { // o if compara se a quantidade minima de caracteres especiais não foi atendida
       System.out.println("A senha precisa de pelo menos um caractere especial.");
+    } else if (num <= 0) { // o if compara se a quantidade minima de números não foi atendida
+      System.out.println("A senha precisa de pelo menos um número.");
     }
   } 
 }
